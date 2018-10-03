@@ -47,9 +47,22 @@ li:nth-child(2) > ul{
   list-style: none;
 }
 
-table tr:nth-child(odd) td{
-  background-color: orange;
+ul > li > ol::first-line {
+  font-weight: bold;
 }
+
+table tr:nth-child(odd) td{
+  background-color: lightgrey;
+}
+
 table tr:nth-child(even) td{
-  background-color: blue;
+  background-color: lightblue;
+}
+
+table tr:last-child {
+  background-color: lightblue;
+}
+
+table tr:first-child {
+  background-color: lightgrey;
 }
